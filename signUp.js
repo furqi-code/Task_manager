@@ -27,6 +27,6 @@ $("#signupBtn").on("click",function(){
     $(".fname, .lname, .mail, .pass").val("") ;
     alert("User Signed up succesfully! ");
     setTimeout(function(){
-        window.open("C:\\Users\\Dell\\Desktop\\Web Deveploment\\class work\\Javascript\\task & Log\\signIn.html") ;
+        window.open("C:\Users\Dell\Desktop\Task_manager\signIn.html") ;
     },1000)
 })

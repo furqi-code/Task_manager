@@ -5,7 +5,7 @@ if (localStorage.getItem("active")) {
     activeUser = JSON.parse(localStorage.getItem("active"));
 }else{
     // If user is not logged in, Go to homepage
-    window.open("C:\\Users\\Dell\\Desktop\\Web Deveploment\\class work\\Javascript\\task & Log\\home.html",'_parent') ;
+    window.open("C:\Users\Dell\Desktop\Task_manager\index.js") ;
 }
 
 if(localStorage.getItem('data'))

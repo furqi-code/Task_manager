@@ -104,7 +104,7 @@ $("#viewList").on("click",function(){
 $("#logOut").on("click",function(){
   activeUser = {} ;
   localStorage.removeItem("active") ;
-  window.open("C:\\Users\\Dell\\Desktop\\Web Deveploment\\class work\\Javascript\\task & Log\\home.html") ;
+  window.open("C:\Users\Dell\Desktop\Task_manager\index.js") ;
 })
 
 // to display the only div which is clicked
