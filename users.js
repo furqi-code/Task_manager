@@ -21,3 +21,9 @@ usersArray.forEach(function(element){
             </div>` ;
 })
 $("#div_allUser").append(html) ;
+
+$("#logOut").on("click",function(){
+    activeUser = {} ;
+    localStorage.removeItem("active") ;
+    window.open("C:\Users\Dell\Desktop\Task_manager\index.js") ;
+})
